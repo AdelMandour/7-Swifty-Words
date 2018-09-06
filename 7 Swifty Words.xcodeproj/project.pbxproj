@@ -13,6 +13,8 @@
 		8400ADC121410B0700988395 /* __Swifty_Words.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8400ADBF21410B0700988395 /* __Swifty_Words.xcdatamodeld */; };
 		8400ADC321410B0900988395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8400ADC221410B0900988395 /* Assets.xcassets */; };
 		8400ADC621410B0900988395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8400ADC421410B0900988395 /* LaunchScreen.storyboard */; };
+		8400ADD221413EA500988395 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8400ADD121413EA500988395 /* level1.txt */; };
+		8400ADD421413EAC00988395 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8400ADD321413EAC00988395 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8400ADC221410B0900988395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8400ADC521410B0900988395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8400ADC721410B0900988395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8400ADD121413EA500988395 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		8400ADD321413EAC00988395 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8400ADC421410B0900988395 /* LaunchScreen.storyboard */,
 				8400ADC721410B0900988395 /* Info.plist */,
 				8400ADBF21410B0700988395 /* __Swifty_Words.xcdatamodeld */,
+				8400ADD121413EA500988395 /* level1.txt */,
+				8400ADD321413EAC00988395 /* level2.txt */,
 			);
 			path = "7 Swifty Words";
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8400ADD421413EAC00988395 /* level2.txt in Resources */,
 				8400ADC621410B0900988395 /* LaunchScreen.storyboard in Resources */,
+				8400ADD221413EA500988395 /* level1.txt in Resources */,
 				8400ADC321410B0900988395 /* Assets.xcassets in Resources */,
 				8400ADBE21410B0700988395 /* Main.storyboard in Resources */,
 			);
@@ -294,7 +302,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.creative.--Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -312,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.creative.--Swifty-Words";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
